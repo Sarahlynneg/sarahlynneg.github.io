@@ -1,0 +1,15 @@
+<nav class="container">
+  <div class="row align-items-end">
+    <div class="col-sm">
+      <img src="../assets/images/logo_web.png" height="150" width="450" />
+    </div>
+    <div class="col-md">
+      {% for item in site.data.nav.items %}
+      <span class="me-3{% if item.url == page.url %} active{% endif %}"
+        ><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></span
+      >
+      {% endfor %}
+    </div>
+    <hr />
+  </div>
+</nav>
