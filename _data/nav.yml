@@ -2,14 +2,8 @@ items:
   - title: Home
     url: /
 
-  - title: Word from our Pastor
-    url: /pastor-word
+  - title: Blog
+    url: /blog
 
-  - title: About Us
+  - title: About
     url: /about
-
-  - title: Worship
-    url: /worship
-
-  - title: The Arts
-    url: /arts

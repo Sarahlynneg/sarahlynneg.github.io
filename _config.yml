@@ -18,14 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: First Christian Church Bloomington Indiana
+title: Sarah Lynne Gershon
 email: sarahlynne@fccbloomington.org
-description: >- # this means to ignore newlines until "baseurl:"
-Welcome to First Christian Church! We’re glad that you’ve found our website, and now that you’re here we hope you’ll take a look around and get to know us a little. 
+description: >- # this means to ignore newlines until "baseurl:"jek
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username: 
+twitter_username:
+github_username:
 
 # Build settings
 theme: minima
@@ -54,6 +53,3 @@ include: ["_pages"]
 
 collections:
   sermons:
-  staff:
-    people: true
-  
